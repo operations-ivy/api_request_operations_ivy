@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "api-request-operations-ivy"
+version = "0.1.0"
+description = ""
+authors = ["Patrick White <whitep@vcu.edu>"]
+readme = "README.md"
+packages = [{include = "api_request_operations_ivy"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.5"
+requests = "^2.32.3"
+pre-commit = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
